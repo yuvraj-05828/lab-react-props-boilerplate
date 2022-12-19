@@ -32,7 +32,7 @@ For this exercise too, you have to make a webpage which looks like the above ima
 But this time, let's make some changes in the structure of our application. As you might have observed in the previous lab -- that we were creating data in both `App.js` and `AppClass.js` files. But the data used was the same for both the files. So, if the data is same for both the files, then why to create data twice.
 In order to overcome this situation - we will be using `props`.
 
-You can clone the previous project (`lab-react-jsx-boilerplate`) again, and then follow the following steps:
+You can clone your previous project (`lab-react-jsx-boilerplate`) again, and then follow the following steps:
 
 1. From both `App.js` and `AppClass.js` files, remove the part where you were creating the data i.e:
    1. Remove the following code from `App.js`:
@@ -87,8 +87,7 @@ You can clone the previous project (`lab-react-jsx-boilerplate`) again, and then
           }
         ]
         return data;
-      }
-
+      
     ```
 
 2. Now, create a folder `components` and inside this folder create a file `DataComponent.js`. Add your data in this file.
